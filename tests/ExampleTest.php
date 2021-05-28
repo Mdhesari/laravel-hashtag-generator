@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Mdhesari\LaravelHashtagGenerator\Tests;
 
 class ExampleTest extends TestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mdhesari\LaravelHashtagGenerator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelHashtagGeneratorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-hashtag-generator';
 
     public $description = 'My command';
 
