@@ -23,7 +23,7 @@ class LaravelHashtagGenerator
     {
         $response = Http::withHeaders($this->getHeaders())
             ->get('https://hashtagy-generate-hashtags.p.rapidapi.com/v1/insta/tags', [
-                'keyword' => 'summer'
+                'keyword' => 'summer',
             ]);
 
         dd($response->json());
@@ -34,7 +34,7 @@ class LaravelHashtagGenerator
         return [
             "x-rapidapi-key" => $this->apiKey,
             "x-rapidapi-host" => $this->apiHost,
-            "useQueryString" => true
+            "useQueryString" => true,
         ];
     }
 }

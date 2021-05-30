@@ -2,9 +2,9 @@
 
 namespace Mdhesari\LaravelHashtagGenerator;
 
+use Mdhesari\LaravelHashtagGenerator\Commands\LaravelHashtagGeneratorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mdhesari\LaravelHashtagGenerator\Commands\LaravelHashtagGeneratorCommand;
 
 class LaravelHashtagGeneratorServiceProvider extends PackageServiceProvider
 {

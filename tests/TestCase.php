@@ -3,8 +3,8 @@
 namespace Mdhesari\LaravelHashtagGenerator\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mdhesari\LaravelHashtagGenerator\LaravelHashtagGeneratorServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
