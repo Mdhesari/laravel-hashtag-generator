@@ -21,5 +21,7 @@ class LaravelHashtagGeneratorServiceProvider extends PackageServiceProvider
             ->hasViews()
             ->hasMigration('create_laravel-hashtag-generator_table')
             ->hasCommand(LaravelHashtagGeneratorCommand::class);
+
+        $this->register('laravel-hashtag-generator', LaravelHashtagGenerator::class);
     }
 }
